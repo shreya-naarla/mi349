@@ -2,8 +2,81 @@
 body {
     background: #fff;
     font-family: Helvetica, sans-serif;
+<<<<<<< HEAD
+=======
+    border-top: 15px solid #424242;
+    margin: 0 auto;
+    color: #424242;
+}
+
+main {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.masthead {
+    background: no-repeat bottom / cover url('mac.jpg');
+    height: 250px;
+    border-radius: 20px;
+}
+
+.details {
+    display: flex;
+    gap: 25px;
+}
+
+.details section {
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #E9EAEC;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.details section p {
+    margin: 25px;
+}
+
+.details section h2 {
+    margin: 25px;
+}
+
+.details section.with-code {
+    padding: 0;
+}
+
+div.code-html {
+    padding: 25px;
+    background-color: #424242;
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+>>>>>>> fede379ad84f9a4ab2e51ffe12ae67ce8d8fae95
 }
 
 img {
     width: 100%;
+<<<<<<< HEAD
 }
+=======
+}
+
+h1 {
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center left;
+    font-size: 3em;
+    padding-left: 55px;
+    margin: 100px 0 25px 0;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0;
+    line-height: 1.4em;
+}
+>>>>>>> fede379ad84f9a4ab2e51ffe12ae67ce8d8fae95
